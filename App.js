@@ -10,8 +10,7 @@ function UserList({ navigation }) {
         <View style={styles.container}>
             <Text>User List Screen</Text>
             <Button
-                title="Go to User Details"
-                onPress={() => navigation.navigate('UserDetails', { userName: 'John Doe' })}
+                title="Go to User Details" onPress={() => navigation.navigate('UserDetails', { userName: 'John Doe' })}
             />
         </View>
     );
